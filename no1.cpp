@@ -4,6 +4,7 @@ using namespace std;
 int main () {
 	int x;
 	int y;
+	int hasil;
 	
 	cout << "Input nilai x = ";
 	cin  >> x;
@@ -11,8 +12,9 @@ int main () {
 	cout << "Input nilai y = ";
 	cin  >> y;
 	
-	if (x > y)
+	if (x - y)
 	{
+		hasil = x-y;
 		cout <<"positif"<<endl;
 	}
 	else 
