@@ -11,4 +11,13 @@ int main () {
 	cout << "Input nilai y = ";
 	cin  >> y;
 	
+	if (x > y)
+	{
+		cout <<"positif"<<endl;
+	}
+	else 
+	{
+		cout <<"negatif"<<endl;
+	}
+	
 }
