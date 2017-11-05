@@ -12,13 +12,14 @@ int main () {
 	cin >> berat;	
 	
 	if (berat<tinggi/2.5) {
-		cout << "Hasil : Kelamakan" << endl;
+		cout << "Hasil : Kurus Banar" << endl;
 	}
 	else if  (tinggi/2.5 <= berat <= tinggi/2.3) {
-		cout <<  "Hasil : Kurus Banar" << endl; 
+		cout <<  "Hasil : Kelamakan" << endl; 
 	}
 	
-	
+//	else if (tinggi/2.3 < berat)
+//		cout << "Hasil : "
 	
 		
 	
