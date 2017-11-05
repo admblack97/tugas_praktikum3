@@ -12,14 +12,15 @@ int main () {
 	cout << "Input nilai y = ";
 	cin  >> y;
 	
-	if (x - y)
+	if (x > y)
 	{
 		hasil = x-y;
-		cout <<"positif"<<endl;
+		cout<<hasil<<endl;
+		cout<<"Hasil Positif";
 	}
 	else 
 	{
-		cout <<"negatif"<<endl;
+		cout<<"negatif"<<endl;
 	}
 	
 }
