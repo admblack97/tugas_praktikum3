@@ -4,23 +4,23 @@ using namespace std;
 int main () {
 	int x;
 	int y;
-	int hasil;
-	
+	int z;
 	cout << "Input nilai x = ";
 	cin  >> x;
 	
 	cout << "Input nilai y = ";
 	cin  >> y;
 	
-	if (x > y)
+	if (x >= y)
 	{
-		hasil = x-y;
-		cout<<hasil<<endl;
+		z = y - x;
+		cout<<z<<endl;
 		cout<<"Hasil Positif";
 	}
-	else 
-	{
-		cout<<"negatif"<<endl;
+	else if (y <= x) {
+		z = x - y;
+		cout<<z<<endl;
+		cout<<"Hasil Positif";
 	}
 	
 }
