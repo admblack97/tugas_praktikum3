@@ -1,10 +1,10 @@
 #include <iostream>
+#include <stdio.h>
+#include <conio.h>
 using namespace std;
 
 int main () {
-	int x;
-	int y;
-	int z;
+	int x, y, z;
 	cout << "Input nilai x = ";
 	cin  >> x;
 	
@@ -17,10 +17,9 @@ int main () {
 		cout<<z<<endl;
 		cout<<"Hasil Positif";
 	}
-	else if (y <= x) {
-		z = x - y;
+	else {
 		cout<<z<<endl;
 		cout<<"Hasil Positif";
 	}
-	
+
 }
