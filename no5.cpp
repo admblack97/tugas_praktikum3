@@ -15,7 +15,7 @@ int main () {
 		cout << "Hasil : Kurus banar sanak ai lamaki lg" << endl;
 	}
 	else if  (tinggi/2.5 <= berat <= tinggi/2.3) {
-		cout <<  "Hasil : Ideal haja, sadang dah awak pian" << endl; 
+		cout <<  "Hasil : Ideal haja, sadang dah awak pian" << endl;
 	}
 	
 	else if (tinggi/2.3 < berat)
