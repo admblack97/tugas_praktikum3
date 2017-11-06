@@ -5,14 +5,13 @@ using namespace std;
 
 int main () {
 char bidang;
-double p,l,a,t,L;
+double P,p,l,a,t,L;
 
 cout << "Pilih Bidang : "<<endl;
 cin >> bidang;
 
-	if (bidang == P)  {
-		cout << "Mengitung luas persegi panjang \n";
-		
+	if ((bidang == P) && (bidang == p)) {
+		cout << "Mengitung luas persegi panjang \n";	
 		cout << "Masukkan panjangnya : \n";
 		cin >> p;
 		cout << "Masukkan lebarnya   : \n";
