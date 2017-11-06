@@ -1,6 +1,7 @@
 #include <iostream>
-#include <stdio.h>
 #include <conio.h>
+#include <cmath>
+
 using namespace std;
 
 int main () {
@@ -11,13 +12,15 @@ int main () {
 	cout << "Input nilai y = ";
 	cin  >> y;
 	
-	if (x >= y)
-	{
-		z = y - x;
-		cout<<z<<endl;
+	
+	if (x > y)	{
+		z = y - x;	
+		cout<<abs (z)<<endl;
 		cout<<"Hasil Positif";
 	}
-	else {
+	
+	else if (x < y) {
+		z = x - y;
 		cout<<z<<endl;
 		cout<<"Hasil Positif";
 	}
