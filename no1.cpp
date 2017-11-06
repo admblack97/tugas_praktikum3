@@ -19,9 +19,9 @@ int main () {
 		cout<<"Hasil Positif";
 	}
 	
-	else if (x < y) {
+	else if (y > x) {
 		z = x - y;
-		cout<<z<<endl;
+		cout<<abs (z)<<endl;
 		cout<<"Hasil Positif";
 	}
 
