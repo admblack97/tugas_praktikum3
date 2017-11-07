@@ -1,5 +1,5 @@
 #include <iostream>
-//#include <conio.h>
+
 #include <cmath>
 
 using namespace std;
@@ -28,7 +28,7 @@ int main () {
 		else if (z == 0) {
 		z = z * (-1) ;
 		cout<<abs (x-y)<<endl;
-		cout<<"Bukan Positif";
+		cout<<"Bukan Nilai Positif";
 	}
 
 }
