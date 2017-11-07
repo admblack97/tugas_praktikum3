@@ -37,7 +37,7 @@ cin >> bidang;
 		cout << "+================================+ \n";
 	}	
 	else{
-		cout<<"Maaf, Anda Salah Memilih"<<endl;
+		cout<<"Maaf, Anda Salah Memilih Bidang"<<endl;
 	}
 }
 
