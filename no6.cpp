@@ -7,4 +7,15 @@ int main () {
 	int k=0;
 	
 	cin >> i ;
+	
+	while (j<i) {
+		k=0;
+		while(k<j){
+		cout << "*";
+		k++;
+		}
+		if(j!=0) {
+		cout << "\n";}
+		j++;
+	}
 }
